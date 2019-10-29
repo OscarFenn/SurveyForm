@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <header>
+
+   </header>
+  <div class="columns">
+  <div class="container animated bounceInUp column is-three-fifths card">
+    <h1 id="title" class="text-center title is-1">Videogame Survey Form</h1>
+<p id="description" class="subtitle is-3 description text-center">
+      I want to know your favorite gaming console.
+    </p>
+  <form id="survey-form">
+  <div class="field">
+  <label id="name-label" class="label">Name</label>
+  <div class="control has-icons-left">
+    <input class="input is-rounded" id="name" type="text" placeholder="John Smith...">
+    <span class="icon is-small is-left">
+      <i class="fas fa-pencil-alt"></i>
+    </span>
+  </div>
+</div>
+
+<div class="field">
+  <label class="label" id="email-label">Email</label>
+  <div class="control has-icons-left">
+    <input class="input is-rounded" id="email" type="email" placeholder="e.g. alexsmith@gmail.com">
+    <span class="icon is-small is-left">
+      <i class="fas fa-envelope"></i>
+    </span>
+  </div>
+</div>
+    
+    <div class="field">
+  <label id="number-label" class="label" type="number" min="13"
+        max="99">Age</label>
+  <div class="control has-icons-left">
+    <input class="input is-rounded" id="number" type="text" placeholder="Age">
+    <span class="icon is-small is-left">
+      <i class="fas fa-pencil-alt"></i>
+    </span>
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Favorite Console</label>
+  <div class="control">
+    <div class="select">
+      <select>
+        <option id="dropdown">Select console</option>
+        <option>PS4</option>
+        <option>Xbox One</option>
+        <option>PC</option>
+        <option>Nintendo Switch</option>
+        <option>Mobile Devices</option>
+      </select>
+    </div>
+  </div>
+</div>
+    
+    <div class="field">
+    <label class="label">1st time using this survey?</label>
+  <div class="field-body">
+      <div class="control">
+        <label class="radio">
+          <input type="radio" name="survey">
+          Yes
+        </label>
+        <label class="radio">
+          <input type="radio" name="survey">
+          No
+        </label>
+        <label class="radio">
+          <input type="radio" name="survey">
+          Maybe
+        </label>
+      </div>
+    </div>
+      </div>
+    
+    <div class="field">
+      <label class="label">Favorite Genre? (Check all that apply)</label>
+  <div class="control">
+    <label class="checkbox">
+      <input value="Action/Adventure" type="checkbox">
+      Action/Adventure
+    </label>
+    <label class="checkbox">
+      <input value="Racing" type="checkbox">
+      Racing
+    </label>
+    <label class="checkbox">
+      <input value="First Person Shooter" type="checkbox">
+      First Person Shooter
+    </label>
+    <label class="checkbox">
+      <input value="Simulation" type="checkbox">
+      Simulation
+    </label>
+    <label class="checkbox">
+      <input value="RPG/MMORPG" type="checkbox">
+      RPG/MMORPG
+    </label>
+    <label class="checkbox">
+      <input value="Strategy" type="checkbox">
+      Strategy
+    </label>
+    <label class="checkbox">
+      <input value="Platforming" type="checkbox">
+      Platforming
+    </label>
+    <label class="checkbox">
+      <input value="Other" type="checkbox">
+      Other
+    </label>
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Additional Comments</label>
+  <div class="control has-icons-left">
+    <textarea class="textarea input" placeholder="Write something..."></textarea>
+    <span class="icon is-small is-left">
+      <i class="fas fa-edit"></i>
+    </span>
+  </div>
+</div>
+
+<div class="field">
+  <div class="control">
+    <label class="checkbox">
+      <input type="checkbox">
+      I agree to the <a href="#">terms and conditions</a>
+    </label>
+  </div>
+</div>
+
+<div class="field is-grouped">
+  <div class="control">
+    <button class="button is-link">Submit</button>
+  </div>
+</div>
+    </div>
+    </div>
+  </form>
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/js/fontawesome-iconpicker.min.js'></script>
+</body>
+</html>

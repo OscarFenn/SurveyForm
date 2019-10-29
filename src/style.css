@@ -1,0 +1,32 @@
+body {
+   background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(57,78,88,1) 100%)
+}
+
+h1  {
+  text-align: center;
+  padding-top: 50px;
+}
+
+p  {
+  text-align: center;
+}
+
+.checkbox {
+  display: inline-block;
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.container {
+  margin: 3.125rem auto 0 auto;
+}
+
+.radio {
+  padding: 0.25rem;
+  margin: 0 auto 1.25rem auto;
+}
+
+.field {
+  padding: 0 10rem;
+}
